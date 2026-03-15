@@ -1,0 +1,1 @@
+This is a small passion project, started because Simply Plural AND Octocon are both shutting down around the same time, and I wish to not lose the ability to track this stuff myself for my system, so I'm making it myself. Sort of.
