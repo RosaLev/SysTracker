@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0f0f13">
 <title>System Tracker v5 Mobile</title>
 <style>
 :root{--bg:#101218;--panel:#171b24;--panel2:#202633;--text:#eef2ff;--muted:#a8b0c7;--accent:#8b5cf6;--accent2:#ec4899;--border:#31384a;--good:#22c55e;--warn:#f59e0b;--bad:#ef4444;--shadow:rgba(0,0,0,.24)}
@@ -476,4 +478,11 @@ function setupWorkingMobileTabs(){
 document.addEventListener('DOMContentLoaded', setupWorkingMobileTabs);
 </script>
 
-</body></html>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
+
+</body>
+</html>
